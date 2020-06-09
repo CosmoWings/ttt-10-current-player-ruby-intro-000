@@ -11,7 +11,7 @@ end
 
 #Here I will define #current_player
 def current_player(arr)
-  if turn_count % 2 != 0
+  if turn_count(arr) % 2 != 0
     return "O"
   else
     return "X"
