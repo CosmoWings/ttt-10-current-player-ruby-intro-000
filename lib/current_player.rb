@@ -8,4 +8,6 @@ def turn_count(arr)
   end
   return turns_so_far
 end
-  
+
+#Here I will define #current_player
+def current_player(arr)
