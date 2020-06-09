@@ -15,4 +15,5 @@ def current_player(arr)
     return "O"
   else
     return "X"
+  end
 end
